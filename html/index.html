@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="../images/my_picture.PNG" rel="shortcut icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <title>에   버</title>
+</head>
+<body>
+    <div id="total">
+        <div>
+            <h1>자기소개</h1>
+            <ul>
+                <li>이름: 에버</li>
+                <li>사는 곳: 봉천동</li>
+                <li>우테코 만세.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h1>요즘 듣는 음악 🎧</h1>
+            <table>
+                <tr id="table_head">
+                    <th class="number">번호</th>
+                    <th>음악명</th>
+                    <th>앨범 사진</th>
+                    <th>아티스트명</th>
+                    <th>영상</th>
+                </tr>
+                <tr>
+                    <td class="number">1</td>
+                    <td>TOMBOY</td>
+                    <td><image src="../images/tomboy.jpeg" width="100px" height="100px"></image></td>
+                    <td>혁오</td>
+                    <td><a href="https://youtu.be/pC6tPEaAiYU?si=ntCAnNVUcVx_-a85">클릭</a></td>
+                </tr>
+                <tr>
+                    <td class="number">2</td>
+                    <td>Swan Song</td>
+                    <td><image src="../images/swan_song.jpeg" width="100px" height="100px"></image></td>
+                    <td>르세라핌</td>
+                    <td><a href="https://youtu.be/p3EwqI_ReDM?si=KjpG69G65zkxcSw5">클릭</a></td>
+                </tr>
+                <tr>
+                    <td class="number">3</td>
+                    <td>Love wins all</td>
+                    <td><image src="../images/love_wins_all.webp" width="100px" height="100px"></image></td>
+                    <td>아이유</td>
+                    <td><a href="https://youtu.be/JleoAppaxi0?si=cBLJ__yik4Nb3YSR">클릭</a></td>
+                </tr>
+                <tr>
+                    <td class="number">4</td>
+                    <td>밤양갱</td>
+                    <td><image src="../images/bam.webp" width="100px" height="100px"></image></td>
+                    <td>비비</td>
+                    <td><a href="https://youtu.be/JleoAppaxi0?si=cBLJ__yik4Nb3YSR">클릭</a></td>
+                </tr>
+                <tr>
+                    <td class="number">4</td>
+                    <td>Love119</td>
+                    <td><image src="../images/love.webp" width="100px" height="100px"></image></td>
+                    <td>라이즈</td>
+                    <td><a href="https://youtu.be/JleoAppaxi0?si=cBLJ__yik4Nb3YSR">클릭</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h1>방명록</h1>
+            <ul>
+                <li>이름: <input id="visit_log_name" type="text"></li>
+                <li>본인 취향 음악:
+                <ul id="musics">
+                    <input class="visit_log_music" type="checkbox" value="TOMBOY">TOMBOY</input>
+                    <input class="visit_log_music" type="checkbox" value="Swan Song">Swan Song</input>
+                    <input class="visit_log_music" type="checkbox" value="Love wins all">Love wins all</input></li>
+                    <input class="visit_log_music" type="checkbox" value="Love wins all">밤양갱</input></li>
+                    <input class="visit_log_music" type="checkbox" value="Love wins all">Love119</input></li>
+                </ul>
+                <div id="buttons">
+                    <button class="button" id="submit_button" type="button">등록</button>
+                    <button class="button" id="cancel_button" type="reset">취소</button>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>

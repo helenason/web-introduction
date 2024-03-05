@@ -1,0 +1,56 @@
+li {
+    height: 30px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+}
+
+th {
+    background-color: aliceblue;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+#table_head {
+    height: 50px;
+}
+
+#number {
+    height: 50px;
+}
+
+#musics {
+    margin: 10px 15px;
+}
+
+.button {
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 15px 32px;
+}
+
+#buttons {
+    margin: 20px 15px;
+}
+
+h1 {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 500;
+    font-size: 200;
+    font-style: normal;
+}
+
+#total {
+    width: 70%;
+    margin: 0 auto;
+}
